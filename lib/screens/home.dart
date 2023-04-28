@@ -1,4 +1,5 @@
 import "package:flutter/material.dart";
+import "package:pokedex/utility/constants.dart";
 
 
 class Home extends StatefulWidget {
@@ -15,7 +16,7 @@ class _HomeState extends State<Home> {
       @override
       Widget build(BuildContext context) {
 
-        return Scaffold();
+        return Scaffold(backgroundColor: background);
 
       }
 
